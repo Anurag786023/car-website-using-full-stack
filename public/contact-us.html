@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/contact.css" />
+    <title>contact-us</title>
+</head>
+
+  <body> 
+    <section class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 main">
+          <form action="/sign_up" method="POST" class="signup">
+            <h2>Contact US Form</h2>
+
+            <div class="signup__field">
+              <input
+                class="signup__input"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+              <label class="signup__label" for="username">Username</label>
+            </div>
+            <div class="signup__field">
+              <input
+                class="signup__input"
+                type="text"
+                name="email"
+                id="email"
+                required
+              />
+              <label class="signup__label" for="email">Email</label>
+            </div>
+            <div class="signup__field">
+              <input class="signup__input" id="phno" name="phno" required />
+              <label class="signup__label" for="phno">Number</label>
+            </div>
+            <div class="signup__field">
+              <input
+                class="signup__input"
+                type="text"
+                class="box"
+                id="password"
+                name="Number"
+                required
+              />
+              <label class="signup__label" for="password">Password</label>
+            </div>
+            <input type="submit" value="Submit" id="submit" class="button" />
+          </form>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </section>
+  </body> 
+</html>
